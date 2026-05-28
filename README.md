@@ -33,6 +33,7 @@
   <p><i>Official Credentials & Footer — High-fidelity document showcase with interactive hover scaling</i></p>
 
 </div>
+
 **🔗 Live Demo:** [she-can-foundation.vercel.app](https://shecanfrontend-fw9v.vercel.app/)
 
 ---
