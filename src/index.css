@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+body {
+  background-color: #000000;
+  overflow-x: hidden;
+}
+.scroll-reveal-container {
+  opacity: 0;
+  will-change: transform, opacity;
+  transition: transform 1.2s cubic-bezier(0.25, 1, 0.5, 1), opacity 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.scroll-reveal-container.fade-up {
+  transform: translateY(50px);
+}
+.scroll-reveal-container.reveal-left {
+  transform: translateX(-60px);
+}
+.scroll-reveal-container.reveal-right {
+  transform: translateX(60px);
+}
+.scroll-reveal-container.reveal-down {
+  transform: translateY(-50px);
+}
+.scroll-reveal-container.reveal-active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
