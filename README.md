@@ -23,7 +23,7 @@
 
 </div>
 
-**🔗 Live Demo:** [she-can-foundation.vercel.app](https://your-link.vercel.app/)
+**🔗 Live Demo:** [she-can-foundation.vercel.app](https://shecanfrontend-fw9v.vercel.app/)
 
 ---
 
